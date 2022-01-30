@@ -1,0 +1,120 @@
+*{
+    margin:0px;
+    padding:0;
+}
+#navBar{
+    display: flex;
+    justify-content: center;
+}
+#nav{
+    width:710px;
+    height:80px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#nav button{
+    height:35px;
+    width:80px;
+    color:white;
+    background-color: rgb(47, 113, 212);
+    box-shadow: black 3px 4px 0px 0px;
+}
+#nav input{
+    width:250px;
+    height:30px;
+    font-size: large;
+}
+#pageContainer{
+    display:flex;
+    justify-content: center;
+}
+#leftSide{
+    display:flex;
+    flex-direction: column;
+    margin:30px 10px;
+}
+#topLeft{
+    width:400px;
+    height:170px;
+    border-style: solid;
+    display:flex;
+    align-items: center;
+}
+#ninjaDef-Top{
+    display:flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+#ninjaDef-Top h3{
+    margin-left: 10px;
+}
+#ninjaDef-Top button{
+    margin-top: 20px;
+    box-shadow: black 3px 4px 0px 0px;
+    height:30px;
+    background-color: rgb(226, 202, 137);
+}
+.pn{
+    margin-top: 5px;
+    display: flex;
+}
+#def-1{
+    margin-left: 80px;
+}
+#bottomLeft{
+    width:400px;
+    height:170px;
+    border-style: solid;
+    margin-top: 25px;
+    display:flex;
+    align-items: center;
+}
+#ninjaDef-Bottom{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+#ninjaDef-Bottom h3{
+    margin-left:10px
+}
+#ninjaDef-Bottom button{
+    margin-top: 20px;
+    box-shadow: black 3px 4px 0px 0px;
+    height:30px;
+    background-color: rgb(226, 202, 137);
+}
+#def-2{
+    margin-left: 60px;
+}
+#rightSide{
+    display:flex;
+    margin:30px 10px;
+}
+#rightBox{
+    width:250px;
+    height:170px;
+    border-style:solid;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: x-large;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+#rightBox h2{
+    margin-top: 10px;
+    margin-left: 2px;
+}
+#rightBox button{
+    width:220px;
+    height: 35px;
+    margin-top: 20px;
+    margin-right: 20px;
+    box-shadow: black 3px 4px 0px 0px;
+    background-color: rgb(94, 170, 94);
+}
+
